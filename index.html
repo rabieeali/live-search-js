@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja Chapter - 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Live Search</h1>
+            <section id="search">
+                <input type="search" placeholder="Search ..." data-search>
+            </section>
+        </header>
+        <main>
+
+            <img class="loading" src="https://edshop.edsystem.eu/images/pro-detail_lazy-loading.gif" alt="loading"
+                data-loading>
+            <div class="cards-wrapper" user-card-wrapper>
+
+                <template data-user-template>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 data-name></h3>
+                            <p data-email></p>
+                        </div>
+                    </div>
+                </template>
+            </div>
+    </div>
+    </main>
+
+</body>
+
+</html>
